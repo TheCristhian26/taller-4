@@ -1,8 +1,8 @@
 [
     {
-        "title": "Post de ejemplo 1",
-        "summary": "Este es el resumen",
-        "text": "Este es el texto completo"
+        "titulo": "Post de ejemplo 1",
+        "Descripcion": "Este es el resumen",
+        "img": "Esta es la imagen "
     },
     {
         "title": "Post de ejemplo 2",

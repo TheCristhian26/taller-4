@@ -1,49 +1,55 @@
 <template>
-    <h2> camisas  Lucka Modrid</h2>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-<div class="carousel-indicators">
-  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-</div>
-<div class="carousel-inner">
-  <div class="carousel-item active">
-    <img src="../public/img2/8(1).png" class="d-block w-100" alt="..." width="600px" height="600px">
-    <div class="carousel-caption d-none d-md-block">
-      <h5>Camisa de Toteham</h5>
-      <p>Hermosa camisa exclusiva solo aqui en Hala madrid</p>
+  <br>
+  <h2> camisas  Lucka Modrid</h2>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="../assets/img/10.png" class="card-img-top" width="250px" height="250px">
+            <div class="card-body">
+              <h5 class="card-title">Camisa Croacia</h5>
+              <p class="card-text">Camisas exclusivas solo aqui,en Hala madrid</p>
+              <a href="https://www.realmadrid.com/" class="btn btn-primary">Visitanos para mas informacion</a>
+            </div>
+          </div>
+        </div>
+        <div class="mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="../assets/img/8.png" class="card-img-top" width="250px" height="250px">
+            <div class="card-body">
+              <h5 class="card-title">Camisa Totheham </h5>
+              <p class="card-text">Camisas exclusivas aqui, en hala madrid</p>
+              <a href="#" class="btn btn-primary">Visitanos para mas informacion</a>
+            </div>
+          </div>
+        </div>
+        <div class="mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="../assets/img/9.png" class="card-img-top" width="250px" height="250px">
+            <div class="card-body">
+              <h5 class="card-title">Camisa Real madrid</h5>
+              <p class="card-text">Camisa exclusiva solo aqui, en hala madrid</p>
+              <a href="#" class="btn btn-primary">Visitanos para mas informacion</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="carousel-item">
-    <img src="../public/img2/10.png" class="d-block w-100" alt="..." width="600px" height="600px">
-    <div class="carousel-caption d-none d-md-block">
-      <h5>Camisa Real madrid</h5>
-      <p>Hermosa camisa exclusiva solo aqui en Hala madrid</p>
-    </div>
-  </div>
-  <div class="carousel-item">
-    <img src="../public/img2/9.png" class="d-block w-100" alt="..." width="600px" height="600px">
-    <div class="carousel-caption d-none d-md-block">
-      <h5>Camisa de Croacia</h5>
-      <p>Hermosa camisa exclusiva solo aqui en Hala madrid</p>
-    </div>
-  </div>
-</div>
-<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-  <span class="visually-hidden">Previous</span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-  <span class="visually-hidden">Next</span>
-</button>
-</div>
+  <br>
+
 </template>
 
-<script lang="ts" scoped>
+<script lang="ts">
+  import { defineComponent } from 'vue';
+  export default defineComponent({
+    name: 'CamisasModric'
+  })
 
 </script>
 
-<style lang="ts" scoped>
+<style lang="scss" scoped>
 
 </style>
